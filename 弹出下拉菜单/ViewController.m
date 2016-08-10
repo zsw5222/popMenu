@@ -20,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(pop)];
-   
+    NSLog(@"test");
+     NSLog(@"test");
+     NSLog(@"test");
 }
 
 - (void)pop{
